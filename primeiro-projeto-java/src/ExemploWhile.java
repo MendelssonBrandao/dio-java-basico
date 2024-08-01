@@ -11,8 +11,9 @@ public class ExemploWhile {
             if (valorDoce>mesada)
                 valorDoce = mesada;
 
-            System.out.println("Doce no valor de " + valorDoce + " adicionado ao carrinho");
+            System.out.print("Doce no valor de " + valorDoce + " adicionado ao carrinho - ");            
             mesada -= valorDoce;
+            System.out.printf("%.2f", mesada); System.out.println();
         }
 
         System.out.println("Mesada: " + mesada);
